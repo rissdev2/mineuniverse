@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rammetto+One&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rammetto+One&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -794,6 +794,177 @@ text-transform: capitalize;
       color: transparent;
       -webkit-text-stroke: 2px rgba(72, 71, 71, 0.86);
     }
+  }
+  .testimonial1{
+    background: linear-gradient(0deg, #191E2C, #191E2C), #FFFFFF;
+box-shadow: -8px 8px 40px 5px rgba(0, 0, 0, 0.5);
+border-radius: 17.7982px;
+  }
+  .testimonial1 h3{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+text-transform: capitalize;     
+color: #FFFFFF;
+  }
+  .testimonial1 h4{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18.24px;
+line-height: 27px;
+text-align: center;
+
+color: #B9B9B9;
+
+  }
+  .testimonial1 p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #BDBDBD;
+margin-bottom: 0px;
+  }
+  .testimonial2{
+    background: linear-gradient(0deg, #191E2C, #191E2C), #FFFFFF;
+box-shadow: -8px 8px 40px 5px rgba(0, 0, 0, 0.5);
+border-radius: 17.7982px;
+margin-top: -40px;
+position: relative;
+z-index: -11;
+  }
+  .testimonial2 h3{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+text-transform: capitalize;     
+color: #FFFFFF;
+  }
+  .testimonial2 h4{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18.24px;
+line-height: 27px;
+text-align: center;
+
+color: #B9B9B9;
+
+  }
+  .testimonial2 p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #BDBDBD;
+margin-bottom: 0px;
+  }
+  .testimonial3{
+    background: linear-gradient(0deg, #191E2C, #191E2C), #FFFFFF;
+box-shadow: -8px 8px 40px 5px rgba(0, 0, 0, 0.5);
+border-radius: 17.7982px;
+position: relative;
+z-index: -11;
+  }
+  .testimonial3 h3{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+text-transform: capitalize;     
+color: #FFFFFF;
+  }
+  .testimonial3 h4{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18.24px;
+line-height: 27px;
+text-align: center;
+
+color: #B9B9B9;
+
+  }
+  .testimonial3 p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #BDBDBD;
+margin-bottom: 0px;
+  }
+  .testimonial4{
+    background: linear-gradient(0deg, #191E2C, #191E2C), #FFFFFF;
+box-shadow: -8px 8px 40px 5px rgba(0, 0, 0, 0.5);
+border-radius: 17.7982px;
+margin-top: -80px;
+position: relative;
+z-index: -111;
+  }
+  .testimonial4 h3{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+text-transform: capitalize;     
+color: #FFFFFF;
+  }
+  .testimonial4 h4{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18.24px;
+line-height: 27px;
+text-align: center;
+
+color: #B9B9B9;
+
+  }
+  .testimonial4 p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #BDBDBD;
+margin-bottom: 0px;
+  }
+  .testimonial5{
+    background: linear-gradient(0deg, #191E2C, #191E2C), #FFFFFF;
+box-shadow: -8px 8px 40px 5px rgba(0, 0, 0, 0.5);
+border-radius: 17.7982px;
+margin-top: -300px;
+position: relative;
+z-index: -111;
+  }
+  .testimonial5 h3{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+text-transform: capitalize;     
+color: #FFFFFF;
+  }
+  .testimonial5 h4{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18.24px;
+line-height: 27px;
+text-align: center;
+
+color: #B9B9B9;
+
+  }
+  .testimonial5 p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #BDBDBD;
+margin-bottom: 0px;
   }
 /******* Aboutpage Testimonials Section CSS End  ********/
 /******* Comin Soon page Hero Section CSS Start  ********/

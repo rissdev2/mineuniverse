@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/dashboards.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1f4b816a3f.js" crossorigin="anonymous"></script>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+      <div id="wrapper">
+<!--------Mods  Dashboard Header And Navbar Code Start  ---------->
+
+
+  <aside id="sidebar-wrapper">
+    <div class="sidebar-brand">
+      <img src="./img/dsh-logo.png" alt="">
+    </div>
+    <ul class="sidebar-nav">
+      <li>
+        <a href="./dasboard.html"><i class="fa fa-home"></i>Dashboard</a>
+      </li>
+      <li >
+        <a href="./server.html"><i class="fa fa-server"></i>servers</a>
+      </li>
+      <li class="active">
+        <a href="./mods.html"><i class="fa fa-code"></i>mods</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-user"></i>Profile</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-bookmark"></i>saved items</a>
+      </li>
+      <li>
+        <a href="#"><img src="./img/collection.png" class="img-fluid" alt=""> my collections</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-crown"></i>premium</a>
+      </li>
+      <br>
+      <br>
+      <br>
+      <br>
+      <li>
+        <a href="#"><i class="fa fa-gear"></i>setting</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-right-from-bracket"></i>logout</a>
+      </li>
+    </ul>
+  </aside>
+
+  <div id="navbar-wrapper">
+    <nav class="navbar navbar-inverse mt-3">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand" id="sidebar-toggle"><i class="fa fa-bars"></i></a>
+        </div>
+        <div class="d-flex align-items-center gap-5">
+            <div class="noti-bg">
+                <a href="" class="position-relative">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill ">
+                        5
+                        <span class="visually-hidden">unread messages</span>
+                        </span>
+                    <i class="fa fa-bell"></i></a>
+            </div>
+            <div class="points-dv px-3 py-2">
+                <p>Points</p>
+                <div class="d-flex align-items-center">
+                    <img src="./img/points.png" class="img-fluid" alt="">
+                    <h4>$2,879.00</h4>
+                </div>
+            </div>
+            <div class="points-dv px-3 py-2">
+                <p>balance</p>
+                <div class="d-flex align-items-center">
+                    <img src="./img/balance.png" class="img-fluid" alt="">
+                    <h4>$2,879.00</h4>
+                </div>
+            </div>
+            <div class="d-flex align-items-center profile-dv">
+                <img src="./img/avatar1.png" alt="">
+                <p class="ms-3">sheraz naseem</p>
+                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  
+                  </a>
+                
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+            </div>
+        </div>
+        
+      </div>
+    </nav>
+  </div>
+<!--------Mods  Dashboard Header And Navbar Code End  ---------->
+<!--------Mods  Dashboard main Section Code Start  ---------->
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            
+        </div>
+    </div>
+</div>
+<!--------Mods  Dashboard main Section Code End  ---------->
+
+
+
+
+
+
+</div>
+
+
+<script>
+    const $button  = document.querySelector('#sidebar-toggle');
+  const $wrapper = document.querySelector('#wrapper');
+  
+  $button.addEventListener('click', (e) => {
+    e.preventDefault();
+    $wrapper.classList.toggle('toggled');
+  });
+  </script>
+
+  
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   
+  
+  
+  
+  
+  
+  
+  </body>
+  </html>
